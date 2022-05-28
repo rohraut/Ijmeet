@@ -23,10 +23,10 @@ public class BaseTest {
 
 	
 
-	@AfterMethod
+	/*@AfterMethod
 	public void closeBrowser() {
 		UIKeywords.driver.close();
 
-	}
+	}*/
 
 }
