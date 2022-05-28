@@ -43,6 +43,37 @@ public class HomePageTests {
 		ContactSalesLnk.click();
 
 	}
+	public void clickOnSignInLnk() {
+		
+	}
+	public void ClickOnContactUsLnk() {
+		
+	}
+	public void clickOnInstaLnk() {
+		
+	}
+	public void clickOnSupportLnk() {
+		
+	}
+	public void clickOnWindowsLnk() {
+		
+	}
+	public void clickOnAppleLnk() {
+		
+	}
+	public void clickOnAndroidLnk() {
+		
+	}
+	public void clickOnLogoLnk() {
+		
+	}
+	public void clickOnArabicLnk() {
+		
+	}
+	public void clickOnSignUpLnk() {
+		
+	}
+	
 }
 
 

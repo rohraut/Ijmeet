@@ -5,9 +5,9 @@
     <classes>
       <class name="com.test.RegressionTests">
         <methods>
-          <include name="JoinMeetingLnk"/>
           <include name="openBrowser"/>
           <include name="closeBrowser"/>
+          <include name="ContactSalesOfIjmeet"/>
         </methods>
       </class> <!-- com.test.RegressionTests -->
     </classes>
