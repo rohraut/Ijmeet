@@ -3,12 +3,11 @@ package com.ijmeet.pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-
 import com.one.UIKeywords;
 
 public class ContactSales {
 	public ContactSales() {
-		PageFactory.initElements(UIKeywords.driver, this);
+		PageFactory.initElements(UIKeywords.driver,this);
 	}
 
 	@FindBy(css = "input[placeholder=\"Enter your name \"]")
