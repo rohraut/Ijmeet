@@ -28,10 +28,11 @@ public class UIKeywords {
 
 	public static void launchURL(String url) {
 		driver.get(url);
+		driver.manage().window().maximize();
 		
 	}
 
-	public String getTitle() {
+	public static String getTitle() {
 		return driver.getTitle();
 		
 	}

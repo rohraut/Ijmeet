@@ -12,8 +12,6 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseTest {
 
-	
-
 	@BeforeMethod
 	public void openBrowser() {
 
@@ -21,12 +19,14 @@ public class BaseTest {
 		UIKeywords.launchURL("https://ijmeet.com");
 	}
 
-	
-
-	@AfterMethod
-	public void closeBrowser() {
+	/*public void closeBrowser() {
 		UIKeywords.driver.close();
 
 	}
+
+	@AfterMethod
+	public void quitBrowser() {
+		UIKeywords.driver.quit();
+	}*/
 
 }

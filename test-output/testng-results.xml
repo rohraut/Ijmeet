@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11652" started-at="2022-05-26T12:09:31Z" finished-at="2022-05-26T12:09:43Z">
+  <suite started-at="2022-05-27T11:33:59Z" name="Default suite" finished-at="2022-05-27T11:34:25Z" duration-ms="25671">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11652" started-at="2022-05-26T12:09:31Z" finished-at="2022-05-26T12:09:43Z">
+    <test started-at="2022-05-27T11:33:59Z" name="Default test" finished-at="2022-05-27T11:34:25Z" duration-ms="25671">
       <class name="com.test.RegressionTests">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.test.RegressionTests@67a20f67]" name="openBrowser" is-config="true" duration-ms="9424" started-at="2022-05-26T17:39:31Z" finished-at="2022-05-26T17:39:40Z">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.test.RegressionTests@4f3bbf68]" started-at="2022-05-27T17:03:59Z" name="openBrowser" finished-at="2022-05-27T17:04:11Z" duration-ms="12112" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="JoinMeetingLnk()[pri:0, instance:com.test.RegressionTests@67a20f67]" name="JoinMeetingLnk" duration-ms="2061" started-at="2022-05-26T17:39:40Z" finished-at="2022-05-26T17:39:42Z">
+        <test-method signature="verifySignUpPage()[pri:0, instance:com.test.RegressionTests@4f3bbf68]" started-at="2022-05-27T17:04:11Z" name="verifySignUpPage" finished-at="2022-05-27T17:04:25Z" duration-ms="13530" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- JoinMeetingLnk -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.test.RegressionTests@67a20f67]" name="closeBrowser" is-config="true" duration-ms="138" started-at="2022-05-26T17:39:42Z" finished-at="2022-05-26T17:39:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
+        </test-method> <!-- verifySignUpPage -->
       </class> <!-- com.test.RegressionTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
