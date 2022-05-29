@@ -23,7 +23,7 @@ public class HomePageTests {
 	@FindBy(css="ul.ml-auto :nth-child(3) a.font-weight-bold")
 	public WebElement ContactSalesLnk;
 	
-	@FindBy(css="a[href=\"https://ijmeet.com/login?csrt=4787608894725738589\"]")
+	@FindBy(css="ul.ml-auto :nth-child(4) a.font-weight-bold")
 	public WebElement SignInLnk;
 	
 	@FindBy(css="a[href=\"https://ijmeet.com/login?csrt=4787608894725738589\"]")
@@ -43,6 +43,11 @@ public class HomePageTests {
 		ContactSalesLnk.click();
 
 	}
-}
+	public void clickOnsignin() {
+           SignInLnk.click();
+	
+	}
+	}
+
 
 
