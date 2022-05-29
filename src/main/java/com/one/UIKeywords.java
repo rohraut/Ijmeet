@@ -31,7 +31,7 @@ public class UIKeywords {
 		
 	}
 
-	public String getTitle() {
+	public static String getTitle() {
 		return driver.getTitle();
 		
 	}
