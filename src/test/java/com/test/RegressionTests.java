@@ -124,7 +124,7 @@ public class RegressionTests extends BaseTest {
 	public void ArabicLnk() throws InterruptedException {
 		HomePageTests rm = new HomePageTests();
 		Thread.sleep(2000);
-		rm.clickOnArabicLnk();
+		//rm.clickOnArabicLnk();
 	}
 
 	@Test
