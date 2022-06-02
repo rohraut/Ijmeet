@@ -3,13 +3,11 @@
 <suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.test.RegressionTests">
+      <class name="com.test.RegressionWithoutconstructor">
         <methods>
-          <include name="openBrowser"/>
-          <include name="verifyTitleOfHomePage"/>
-          <include name="closeBrowser"/>
+          <include name="m2"/>
         </methods>
-      </class> <!-- com.test.RegressionTests -->
+      </class> <!-- com.test.RegressionWithoutconstructor -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

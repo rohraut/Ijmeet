@@ -11,6 +11,7 @@ public class SigninPage {
 		PageFactory.initElements(UIKeywords.driver, this);
 	}
 
+
 	@FindBy(css="#email")
 	public WebElement YourName;
     
@@ -28,6 +29,10 @@ public class SigninPage {
 	}
 	public void singbutton() {
 		singinpage.click();
+	}
+	public void clickOnsignin() {
+	
+		
 	}
 }
 
