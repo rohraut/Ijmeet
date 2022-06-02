@@ -5,7 +5,12 @@
     <classes>
       <class name="com.test.RegressionWithoutconstructor">
         <methods>
+<<<<<<< HEAD
           <include name="m2"/>
+=======
+          <include name="signUpPageOfIjmeet"/>
+          <include name="openBrowser"/>
+>>>>>>> 1dd7433a95f2bf1e7770667833cfb91bfeac71a0
         </methods>
       </class> <!-- com.test.RegressionWithoutconstructor -->
     </classes>
