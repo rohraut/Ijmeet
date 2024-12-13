@@ -34,6 +34,11 @@
 			<artifactId>poi-ooxml</artifactId>
 			<version>4.1.1</version>
 		</dependency>
-
+		<properties>
+			<docker.image.prefix>kammana</docker.image.prefix>
+			<sonar.host.url>http://52.3.162.48:9000/</sonar.host.url>
+			<maven.compiler.source>1.8</maven.compiler.source>
+			<maven.compiler.target>1.8</maven.compiler.target>
+			</properties>
 	</dependencies>
 </project>
